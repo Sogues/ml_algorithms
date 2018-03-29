@@ -1,0 +1,14 @@
+sunny,hot,high,FALSE,25
+sunny,hot,high,TRUE,30
+overcast,hot,high,FALSE,46
+rainy,mild,high,FALSE,45
+rainy,cool,normal,FALSE,52
+rainy,cool,normal,TRUE,23
+overcast,cool,normal,TRUE,43
+sunny,mild,high,FALSE,35
+sunny,cool,normal,FALSE,38
+rainy,mild,normal,FALSE,46
+sunny,mild,normal,TRUE,48
+overcast,mild,high,TRUE,52
+overcast,hot,normal,FALSE,44
+rainy,mild,high,TRUE,30
