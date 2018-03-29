@@ -49,14 +49,16 @@ def chooseBestFeatrueToSplit(dataset):
                 continue
             (left, right) = split
             left_subdataset = splitDataSet(dataset, i, left)
-            left_prob = len(left_subdataset) / len(dataset)
+            #left_prob = len(left_subdataset) / len(dataset)
             S, u = calcstDev(left_subdataset)
-            stDev += left_prob * S
+            #stDev += left_prob * S
+            stDev += S
 
             right_subDataSet = splitDataSet(dataset, i, right)
-            right_prob = len(right_subDataSet) / len(dataset)
+            #right_prob = len(right_subDataSet) / len(dataset)
             S, u = calcstDev(right_subDataSet)
-            stDev += right_prob * S
+            #stDev += right_prob * S
+            stDev += S
 
             if (stDev < bestStDev):
                 bestStDev = stDev
